@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(84, 109, 119);
+}
+
+#mainNav ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    display:flex;
+    background-color: #d61c1c;
+    flex-flow:row wrap;
+
+}
+#mainNav li {
+    flex-grow:1;
+    width:calc(25%-.2em);
+    border:.4em rgb(17, 17, 17) solid;
+}
+#mainNav a{
+
+    background-color:rgb(200, 253, 6);
+    text-decoration: maroon;
+    display: block;
+    
+}
+#mainNav a:hover {
+    background-color: rgb(255, 255, 255);
+}
+.pic1{
+    width: 100%;
+}
+.text1 .h3{
+    text-align: center;
+    color: ghostwhite;
+    text-transform: uppercase;
+}
+.text1 .p1{
+    text-align: left;
+    letter-spacing: 2px;
+
+}
+.pic2:hover{
+    transform:skewX(5deg);
+    width: 50%;
+    padding-left: 250px;
+}
+.Copyright{
+    text-align: right;
+}
+footer{
+    color: rgb(8, 104, 75);
+}
+
+
+
+
